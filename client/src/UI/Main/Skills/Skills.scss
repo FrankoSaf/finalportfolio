@@ -1,8 +1,9 @@
 .skills_container {
-  height: 60vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow-x: hidden;
 }
 h2 {
   margin-bottom: 4rem;

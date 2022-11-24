@@ -1,5 +1,6 @@
 .nav_container {
-  max-width: 100%;
+  max-width: 95%;
+  margin: 0 auto;
   height: 8rem;
   transition: height 0.1s ease-in-out;
 
@@ -94,7 +95,7 @@
   }
   .nav_right-links-desktop {
     position: static;
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
 
