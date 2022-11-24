@@ -20,15 +20,15 @@
     }
   }
   &-links {
-    width: 10rem;
     display: flex;
     justify-content: space-between;
+    width: 15rem;
     a {
       color: #f6a532;
       font-size: 1.7rem;
       display: flex;
       align-items: center;
-      width: 30%;
+
       justify-content: space-around;
     }
   }

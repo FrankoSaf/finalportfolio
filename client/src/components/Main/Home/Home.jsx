@@ -5,12 +5,12 @@ import { CgFileDocument } from 'react-icons/cg';
 
 const Home = () => {
   return (
-    <section className='home_container'>
+    <section className='home_container' id='home'>
       <div className='home'>
         <img src='profile.jpg' alt='' />
         <h1>Hi, I'm Franko</h1>
         <h3>Fullstack Developer</h3>
-        <p>I'm fresh bootcamp graduate, in a search for new opportunities</p>
+        <p>Fullstack developer, in a Hunt for new opportunities</p>
         <div className='home_links'>
           <a
             href='Franko Safradin English.pdf'

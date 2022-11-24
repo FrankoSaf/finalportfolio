@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 *,
 *::after,
 *::before {
@@ -9,17 +9,28 @@
 }
 :root {
   font-size: 62.5%;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   font-size: 1.6rem;
   display: grid;
+  color: rgb(54, 53, 53);
 }
 section {
   width: 95%;
   margin: 0 auto;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
+
 h2 {
   font-size: 3.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Alfa Slab One', cursive;
 }

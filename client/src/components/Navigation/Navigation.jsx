@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FaRegMoon } from 'react-icons/fa';
 import '../../UI/Navigation/Navigation.scss';
 const Navigation = () => {
   const [showNav, setShowNav] = useState(false);
@@ -9,9 +8,13 @@ const Navigation = () => {
       <nav className='nav'>
         <div className='nav_hero'></div>
         <div className='nav_right'>
-          <div className='nav_right-theme'>
-            <FaRegMoon className='theme-icon' />
-          </div>
+          <ul className='nav_right-links-desktop'>
+            {links.map((link) => (
+              <li>
+                <a href={`#${link.toLowerCase()}`}>{link}</a>
+              </li>
+            ))}
+          </ul>
           <div
             className='nav_right_burger'
             onClick={() => setShowNav(!showNav)}
@@ -32,9 +35,12 @@ const Navigation = () => {
               }`}
             ></span>
           </div>
+
           <ul className={`nav_right-links ${showNav ? 'spread_links' : ''}`}>
             {links.map((link) => (
-              <li>{link}</li>
+              <li>
+                <a href={`#${link.toLowerCase()}`}>{link}</a>
+              </li>
             ))}
           </ul>
         </div>
