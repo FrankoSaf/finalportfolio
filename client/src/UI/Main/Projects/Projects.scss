@@ -1,0 +1,18 @@
+.projects {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+  & > * {
+    flex-basis: calc(50% - 20px);
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects > * {
+    flex-basis: 100%;
+  }
+}

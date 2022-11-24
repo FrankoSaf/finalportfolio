@@ -6,6 +6,13 @@
   ul {
     list-style: none;
   }
+  h4 {
+    font-size: 1.8rem;
+    margin: 1.2rem 0 1rem;
+  }
+  p {
+    max-width: 75ch;
+  }
   &-heading {
     width: 100%;
     h3 {
@@ -23,6 +30,18 @@
       align-items: center;
       width: 30%;
       justify-content: space-around;
+    }
+  }
+  &-technologies {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    li {
+      background-color: #fab555;
+      color: white;
+      border-radius: 10px;
+      padding: 6px;
     }
   }
 }
