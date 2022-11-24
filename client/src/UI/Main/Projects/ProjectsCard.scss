@@ -1,0 +1,28 @@
+.project_card {
+  border: 1px solid #fab555;
+  background-color: #fdebc3;
+  color: black;
+  padding: 20px;
+  ul {
+    list-style: none;
+  }
+  &-heading {
+    width: 100%;
+    h3 {
+      color: #f39c24;
+    }
+  }
+  &-links {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    a {
+      color: #f6a532;
+      font-size: 1.7rem;
+      display: flex;
+      align-items: center;
+      width: 30%;
+      justify-content: space-around;
+    }
+  }
+}
